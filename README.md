@@ -1,20 +1,31 @@
-# TrashBot: Intelligent Waste Monitoring System
+# ♻️ TrashBot: Intelligent Waste Monitoring System
 
 ## Overview
 
-TrashBot is an advanced waste monitoring system designed to identify whether waste is properly disposed of into designated bins. By leveraging computer vision techniques and machine learning, TrashBot aims to promote cleaner environments and encourage responsible waste management practices.
+**TrashBot** is a smart waste monitoring system that utilizes computer vision and machine learning to determine whether waste has been disposed of correctly in designated bins. The goal is to foster responsible waste management and contribute to a cleaner, more sustainable environment.
 
-## Features
+## 🚀 Features
 
-- **Real-Time Monitoring:** Continuously observes waste disposal behavior.
-- **Object Detection:** Detects and classifies waste items in camera feeds.
-- **Violation Alerts:** Generates alerts if waste is not properly disposed of.
-- **Data Logging:** Records instances of improper waste disposal.
+* **Real-Time Monitoring**: Continuously monitors waste disposal through live camera feeds.
+* **Object Detection**: Identifies and classifies waste materials using advanced detection models.
+* **Violation Alerts**: Sends instant alerts when improper disposal is detected.
+* **Data Logging**: Keeps a detailed log of all disposal violations for review and analysis.
 
-## Technologies Used
+## 🧠 Technologies Used
 
-- **Python**
-- **OpenCV** for real-time video processing
-- **TensorFlow/Keras** for object classification
-- **Firebase** for backend storage
-- **YOLOv8** for waste detection
+* **Python** – Core programming language
+* **OpenCV** – For real-time video processing and image handling
+* **YOLOv8** – High-speed object detection to recognize different types of waste
+
+## 📦 Use Cases
+
+* Smart campuses and universities
+* Public waste management in cities
+* Malls, airports, and transportation hubs
+* Eco-friendly corporate offices
+
+## 📁 Future Enhancements
+
+* Dashboard for visual analytics
+* Mobile app notifications
+* Multi-camera support for wide-area coverage
