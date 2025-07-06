@@ -1,6 +1,6 @@
 # Face Recognition using Firebase
 
-A Python-based face recognition system integrated with Google Firebase for storing user data and attendance. This project encodes face images, recognizes individuals in real-time via webcam, and updates Firebase with attendance logs and user details.
+A Python-based face recognition system integrated with Google Firebase for storing user data. This project encodes face images, recognizes individuals in real-time via webcam, and interacts with Firebase to manage user profiles.
 ---
 ## 🔧 Features
 
@@ -8,10 +8,15 @@ A Python-based face recognition system integrated with Google Firebase for stori
 - Encodes face data using `face_recognition` library
 - Stores face encodings in a pickle file
 - Firebase Realtime Database integration for:
-  - Storing attendance records
   - Managing user profiles (name, ID, etc.)
 - Real-time detection with face annotations on the video feed
+
+> ⚙️ **Future Enhancement**:  
+> Automatic attendance marking and time-logging in Firebase based on face recognition.
+
 ---
+
+
 ## 🛠️ Technologies Used
 
 - Python 3
@@ -58,7 +63,7 @@ Go to Firebase Console
 
 - Go to Project Settings > Service Accounts > Generate new private key
 
-- Save the JSON file as firebase_config.json in the project root
+- Save the JSON file as `serviceAccountKey.json` in the project root
 
 - Ensure your Firebase Realtime Database is enabled
 
