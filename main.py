@@ -9,8 +9,8 @@ from firebase_admin import credentials, db, storage
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://trashbotfacerec-default-rtdb.firebaseio.com/",
-    'storageBucket': "trashbotfacerec.appspot.com"
+    'databaseURL': "DATABASE_URL",
+    'storageBucket': "STORAGE_BUCKET"
 })
 
 bucket = storage.bucket()
