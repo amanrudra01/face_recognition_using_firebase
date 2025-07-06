@@ -1,4 +1,4 @@
-# 🔐 Face Recognition using Firebase
+# 🔐 Face Recognition System with Firebase Integration 
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python)
 ![OpenCV](https://img.shields.io/badge/OpenCV-RealTime-blue?style=flat-square&logo=opencv)
