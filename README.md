@@ -110,6 +110,17 @@ This will start the webcam, recognize faces, and mark attendance in Firebase.
 
 ```
 Database
+├── Students
+│   ├── 101
+│   │   ├── name: "Aman"
+│   │   ├── department: "CSE"
+│   │   └── ...
+
+```
+Extended Structure with Attendance Logging
+> For Future Enhancement
+```
+Database
 ├── Users
 │   ├── 101
 │   │   ├── name: "Aman"
