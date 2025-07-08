@@ -105,3 +105,5 @@ while True:
     cv2.imshow("Face Recognition", imgBackGround)
 
     cv2.waitKey(1)
+
+
