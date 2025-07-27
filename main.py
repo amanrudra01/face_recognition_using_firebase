@@ -7,7 +7,6 @@ import numpy as np
 import firebase_admin
 from firebase_admin import credentials, db, storage
 
-
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': "DATABASE_URL",
