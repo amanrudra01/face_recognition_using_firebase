@@ -90,7 +90,6 @@ while True:
                 array = np.frombuffer(blob.download_as_string(), np.uint8)
                 imgStudent = cv2.imdecode(array, cv2.COLOR_BGRA2BGR)
 
-
             else:
                 # Fetch unknown image
                 blob = bucket.get_blob(f'Unknown/unknown.png')
